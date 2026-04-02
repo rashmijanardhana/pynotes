@@ -2,7 +2,7 @@
 
 AUTHOR          = 'Rashmi'  # use your name
 SITENAME        = 'My Python Notes' # use title
-GITHUB_USERNAME = 'rashmirash-bj' # use your username
+GITHUB_USERNAME = 'rashmijanardhana' # use your username
 
 
 # Blogroll
@@ -12,7 +12,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("GitHub", "https://github.com/rashmirash-bj/"),
+    ("GitHub", "https://github.com/rashmijanardhana/"),
     ("LinkedIn", "www.linkedin.com/in/sai-rashmi-bj-51640825b"),
 )
 
