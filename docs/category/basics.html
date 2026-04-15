@@ -47,14 +47,14 @@
 
             <article>
                 <a href="https://rashmijanardhana.github.io/pynotes/age-calculator.html"><h3 class="article-title">Age-Calculator</h3></a>
-<h6 class="subheader" title="2026-04-02T00:00:00-04:00">Thu 02 April 2026
+<h6 class="subheader" title="2026-04-15T00:00:00-04:00">Wed 15 April 2026
 </h6>
 
 
-<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 </code></pre></div>
 
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_age</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_age</span><span class="p">(</span><span class="n">d</span><span class="p">):</span>
     <span class="n">d1</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
     <span class="n">months</span> <span class="o">=</span> <span class="p">(</span><span class="n">d1</span><span class="o">.</span><span class="n">year</span> <span class="o">-</span> <span class="n">d</span><span class="o">.</span><span class="n">year</span><span class="p">)</span> <span class="o">*</span> <span class="mi">12</span> <span class="o">+</span> <span class="n">d1</span><span class="o">.</span><span class="n">month</span> <span class="o">-</span> <span class="n">d</span><span class="o">.</span><span class="n">month</span>
 
@@ -91,8 +91,87 @@
 
 
             <article>
+                <a href="https://rashmijanardhana.github.io/pynotes/create.html"><h3 class="article-title">Create</h3></a>
+<h6 class="subheader" title="2026-04-15T00:00:00-04:00">Wed 15 April 2026
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="c1">#Python String</span>
+<span class="n">single_quote</span> <span class="o">=</span> <span class="s1">&#39;Hello&#39;</span>
+<span class="n">double_quote</span> <span class="o">=</span> <span class="s2">&quot;World&quot;</span>
+<span class="n">multi_line</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;This is</span>
+<span class="s2">a multi-line</span>
+<span class="s2">string&quot;&quot;&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">single_quote</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">double_quote</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">multi_line</span><span class="p">)</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Python&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>    <span class="c1"># P</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">text</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>   <span class="c1"># n</span>
+
+<span class="n">word</span> <span class="o">=</span> <span class="s2">&quot;Programming&quot;</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">6</span><span class="p">])</span>   <span class="c1"># Output: Progra</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">word</span><span class="p">[:</span><span class="mi">4</span><span class="p">])</span>    <span class="c1"># Output: Prog</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">word</span><span class="p">[</span><span class="mi">4</span><span class="p">:])</span>    <span class="c1"># Output: ramming</span>
+
+<span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;Python&quot;</span>
+
+<span class="c1"># name[0 …</span></code></pre></div><p class="subheader">Category: <a href="https://rashmijanardhana.github.io/pynotes/category/basics.html">basics</a>
+
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://rashmijanardhana.github.io/pynotes/create.html">Read More</a>
+                <hr  class="gradient"/>
+            </article>
+
+        
+
+
+            <article>
+                <a href="https://rashmijanardhana.github.io/pynotes/datatypes.html"><h3 class="article-title">Datatypes</h3></a>
+<h6 class="subheader" title="2026-04-15T00:00:00-04:00">Wed 15 April 2026
+</h6>
+
+
+<div class="highlight"><pre><span></span><code><span class="c1">#Python Numbers and Mathematics</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">statistics</span>
+<span class="n">integer_num</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">float_num</span> <span class="o">=</span> <span class="mf">3.14</span>
+<span class="n">complex_num</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">+</span> <span class="mi">5</span><span class="n">j</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">integer_num</span><span class="p">))</span>  <span class="c1"># &lt;class &#39;int&#39;&gt;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">float_num</span><span class="p">))</span>    <span class="c1"># &lt;class &#39;float&#39;&gt;</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">complex_num</span><span class="p">))</span>  <span class="c1"># &lt;class &#39;complex&#39;&gt;</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="n">b</span> <span class="o">=</span> <span class="mi">5</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>   <span class="c1"># Addition → 17</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>   <span class="c1"># Subtraction → 7</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">a …</span></code></pre></div><p class="subheader">Category: <a href="https://rashmijanardhana.github.io/pynotes/category/basics.html">basics</a>
+
+</p>
+
+
+
+                <a class="button radius secondary small right" href="https://rashmijanardhana.github.io/pynotes/datatypes.html">Read More</a>
+                <hr  class="gradient"/>
+            </article>
+
+        
+
+
+            <article>
                 <a href="https://rashmijanardhana.github.io/pynotes/hello.html"><h3 class="article-title">Hello</h3></a>
-<h6 class="subheader" title="2026-04-02T00:00:00-04:00">Thu 02 April 2026
+<h6 class="subheader" title="2026-04-15T00:00:00-04:00">Wed 15 April 2026
 </h6>
 
 
@@ -100,6 +179,9 @@
 </code></pre></div>
 
 <div class="highlight"><pre><span></span><code>hello
+</code></pre></div>
+
+<div class="highlight"><pre><span></span><code>
 </code></pre></div>
 
 <div class="highlight"><pre><span></span><code>

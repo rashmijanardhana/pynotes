@@ -1,3 +1,12 @@
+---
+title: Datatypes
+date: 2026-04-15
+author: Your Name
+cell_count: 2
+score: 0
+---
+
+```python
 #Python Numbers and Mathematics
 import math
 import random
@@ -63,6 +72,40 @@ print(statistics.mean(numbers))   # Mean → 30
 print(statistics.median(numbers)) # Median → 30
 print(statistics.stdev(numbers))  # Standard deviation
 
+```
+
+    <class 'int'>
+    <class 'float'>
+    <class 'complex'>
+    17
+    7
+    60
+    2.4
+    3
+    2
+    16
+    4.0
+    5
+    4
+    0.49999999999999994
+    0.8660254037844387
+    0.5773502691896257
+    4
+    3.57
+    25
+    -10.0
+    4
+    2.7065607094416912
+    30
+    30
+    15.811388300841896
+    
 
 
+```python
 
+```
+
+
+---
+**Score: 0**

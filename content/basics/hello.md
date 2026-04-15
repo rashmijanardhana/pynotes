@@ -1,8 +1,8 @@
 ---
 title: Hello
-date: 2026-04-02
+date: 2026-04-15
 author: Your Name
-cell_count: 2
+cell_count: 3
 score: 0
 ---
 
@@ -12,6 +12,11 @@ print("hello")
 
     hello
     
+
+
+```python
+
+```
 
 
 ```python

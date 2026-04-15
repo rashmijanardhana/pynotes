@@ -62,7 +62,3 @@ numbers = [10, 20, 30, 40, 50]
 print(statistics.mean(numbers))   # Mean → 30
 print(statistics.median(numbers)) # Median → 30
 print(statistics.stdev(numbers))  # Standard deviation
-
-
-
-
